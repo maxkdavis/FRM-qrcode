@@ -1,0 +1,46 @@
+html {
+  background-color: hsl(212, 45%, 89%);
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+main {
+  /* border: 1px solid red; */
+  border-radius: 20px;
+  background-color: #fff;
+  max-width: 320px;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 22px;
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+}
+
+p {
+  color: #7d889e;
+}
+
+.hero-img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  /* justify-content: center;
+  align-items: center; */
+}
